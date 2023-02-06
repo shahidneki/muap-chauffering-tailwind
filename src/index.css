@@ -11,3 +11,15 @@
 .blur-not-hover:not(:hover) {
   filter: blur(10px);
 }
+
+#contact_info,
+#contact_us {
+  height: 350px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  #contact_info {
+    display: none;
+  }
+}

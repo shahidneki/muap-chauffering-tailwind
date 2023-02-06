@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import ImageSlider from "./ImageSlider";
 import Footer from "./Footer";
 import abstractVideo from '../assets/background.mp4'
+import ContactUs from "./Contact";
 
 const MainComponent = () => {
     return (
@@ -25,6 +26,7 @@ const MainComponent = () => {
           <Plan />
           <Testimonials />
           <ImageSlider />
+          <ContactUs />
           <Footer />
         </div>
       </div>
